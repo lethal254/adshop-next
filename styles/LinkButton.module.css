@@ -1,0 +1,26 @@
+.linkButton {
+  background-color: #eab821;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
+  transition: all 0.5s ease;
+  margin-right: 0rem;
+  display: inline-block;
+  border-radius: 8px;
+}
+.linkButton:nth-child(1) {
+  margin-right: 1rem;
+  background: transparent;
+  color: #202124;
+}
+.linkButton:nth-child(1):hover {
+  color: #eab821;
+}
+.linkButton:nth-child(2) {
+  /* margin-right: 1rem; */
+  background: #eab821;
+}
+.linkButton:hover {
+  filter: brightness(107%);
+}

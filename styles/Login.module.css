@@ -1,0 +1,106 @@
+.login {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+.loginLeft {
+  flex: 0.3;
+  background: url("/loginbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logintitle {
+  color: #fff;
+  z-index: 2;
+}
+.logintitle h1 {
+  font-size: 4rem;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+.logintitle p {
+  font-size: 1.5rem;
+}
+.loginLeft::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.192);
+}
+.loginRight {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 4rem;
+}
+.usertype p {
+}
+.usertype h3 {
+  font-size: 2rem;
+}
+.loginRight h3 {
+  font-size: 2.3rem;
+  margin-bottom: 4rem;
+  font-weight: 500;
+}
+.loginRight form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.loginRight form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  color: #888;
+}
+.loginRight form label input {
+  margin-top: 0.5rem;
+  border: none;
+  border-bottom: 1.5px solid #888;
+  outline: none;
+  transition: all 0.5s ease;
+  padding: 0.5rem;
+}
+.loginRight form label input:focus {
+  padding: 1rem;
+}
+.loginRight form button {
+  width: 30%;
+  padding: 1rem;
+  border: none;
+  background-color: #eab821;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.loginRight form button:hover {
+  filter: brightness(103%);
+}
+.createaccount {
+  margin-top: 3rem;
+}
+.createaccount p {
+  font-size: 1rem;
+}
+.createaccount p a {
+  color: #eab821;
+}

@@ -1,0 +1,88 @@
+.footer {
+  min-height: 30vh;
+  background: #202124;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+  padding: 0 10rem;
+}
+.footersection {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+.socialLinks h3 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+.icons {
+  width: 100%;
+}
+.icons svg {
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+  transition: all 0.5s ease;
+}
+.icons svg:hover {
+  color: #888;
+}
+.socialLinks links {
+  display: flex;
+}
+.socialLinks a {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 0.7rem;
+  transition: all 0.5s ease;
+}
+.footersection h3 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+.footersection a {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 0.7rem;
+  transition: all 0.5s ease;
+}
+.footersection a svg {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 0.7rem;
+  transition: all 0.5s ease;
+}
+.footersection a:hover {
+  color: #888;
+}
+.logo {
+  padding: 3rem 0;
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 0 1rem;
+  }
+  .footersection h3 {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  .socialLinks h3 {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  .icons svg {
+    font-size: 1rem;
+    margin-right: 1.5rem;
+    transition: all 0.5s ease;
+  }
+}
